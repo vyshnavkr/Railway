@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="#212121"
+
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_TrainNumber"
+    android:text="No."
+    android:textColor="#FFFFFF"
+    android:alpha=".7"
+     />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_TrainName"
+        android:text="Name"
+        android:layout_marginLeft="56dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:alpha="1" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_M"
+        android:layout_below="@id/tv_TrainName"
+        android:layout_alignLeft="@id/tv_TrainName"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Tu"
+        android:layout_below="@id/tv_TrainName"
+        android:layout_toRightOf="@+id/tv_M"
+        android:paddingLeft="8dp"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_W"
+        android:layout_below="@id/tv_TrainName"
+        android:layout_toRightOf="@+id/tv_Tu"
+        android:paddingLeft="8dp"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Th"
+        android:layout_below="@id/tv_TrainName"
+        android:layout_toRightOf="@+id/tv_W"
+        android:paddingLeft="8dp"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_F"
+        android:layout_below="@id/tv_TrainName"
+        android:layout_toRightOf="@+id/tv_Th"
+        android:paddingLeft="8dp"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Sa"
+        android:layout_below="@id/tv_TrainName"
+        android:layout_toRightOf="@+id/tv_F"
+        android:paddingLeft="8dp"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Su"
+        android:layout_below="@id/tv_TrainName"
+        android:layout_toRightOf="@+id/tv_Sa"
+        android:paddingLeft="8dp"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_FC"
+        android:layout_below="@id/tv_M"
+        android:layout_alignLeft="@id/tv_TrainName"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_3E"
+        android:layout_below="@id/tv_M"
+        android:layout_toRightOf="@+id/tv_FC"
+        android:paddingLeft="8dp"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_CC"
+        android:layout_below="@id/tv_M"
+        android:layout_toRightOf="@+id/tv_3E"
+        android:paddingLeft="8dp"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_SL"
+        android:layout_below="@id/tv_M"
+        android:layout_toRightOf="@+id/tv_CC"
+        android:paddingLeft="8dp"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_2S"
+        android:layout_below="@id/tv_M"
+        android:layout_toRightOf="@+id/tv_SL"
+        android:paddingLeft="8dp"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_2A"
+        android:layout_below="@id/tv_M"
+        android:layout_toRightOf="@+id/tv_2S"
+        android:paddingLeft="8dp"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_3A"
+        android:layout_below="@id/tv_M"
+        android:layout_toRightOf="@+id/tv_2A"
+        android:paddingLeft="8dp"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:alpha=".7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_1A"
+        android:text="-"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:layout_alignTop="@+id/tv_3A"
+        android:layout_toRightOf="@+id/tv_3A"
+        android:paddingLeft="8dp"
+        android:alpha=".7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_DeptTime"
+        android:layout_toLeftOf="@+id/tv_ArrivalTime"
+        android:layout_alignBottom="@+id/tv_Su"
+        android:text="Dept"
+        android:textColor="#EEEEEE"
+        android:textSize="12sp"
+        android:alpha="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_ArrivalTime"
+        android:text="Arrival"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/tv_Su"
+        android:layout_marginLeft="8dp"
+        android:textColor="#EEEEEE"
+        android:textSize="12sp"
+        android:allowUndo="false"
+        android:alpha="1" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_TravelTime"
+        android:text="Total"
+        android:textSize="11sp"
+        android:layout_below="@id/tv_ArrivalTime"
+        android:layout_alignRight="@id/tv_ArrivalTime"
+        android:textColor="#BDBDBD"
+        android:alpha=".5" />
+
+
+</RelativeLayout>

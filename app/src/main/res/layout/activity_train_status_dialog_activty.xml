@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.android.vyshnav.indianrailwaysimpledesign.TrainStatusDialogActivty">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_train_no"
+        android:hint="Enter Train Number"/>
+    <TextView
+        android:id="@+id/tv_dp_TS"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Enter start date of train"
+        android:paddingTop="10dp"
+        android:paddingLeft="14dp"
+        android:layout_below="@+id/et_train_no"
+        android:onClick="pickDate"
+        android:clickable="true"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/sb_TS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_dp_TS"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="SEARCH"
+        android:onClick="searchResults"
+        android:background="#009688"
+        android:clickable="true"
+        android:textColor="@color/primary_material_light" />
+
+</RelativeLayout>
